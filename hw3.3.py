@@ -4,7 +4,5 @@ lst = [1, 2, 3] # [[1, 2], [3]]
 #lst = [1] # [[1], []]
 #lst = [] #[[], []]
 
-
-
 half_part = (len(lst) + 1) // 2
 print([lst[:half_part], lst[half_part:]])
